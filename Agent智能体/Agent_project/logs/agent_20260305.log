@@ -1,0 +1,5 @@
+2026-03-05 19:27:16,621 - agent - INFO - logger_handler.py:56 - 信息日志
+2026-03-05 19:27:16,623 - agent - ERROR - logger_handler.py:57 - 错误日志
+2026-03-05 19:27:16,623 - agent - WARNING - logger_handler.py:58 - 警告日志
+2026-03-05 19:27:16,624 - agent - DEBUG - logger_handler.py:59 - 调试日志
+2026-03-05 21:23:12,455 - agent - ERROR - prompt_loader.py:44 - [load_report_prompts]解析报告生成提示词出错，[Errno 2] No such file or directory: 'C:\\vscode\\projects\\AI\\Agent智能体\\Agent_project\\prompts/report_prompt.txt'
