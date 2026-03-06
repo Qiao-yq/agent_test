@@ -1,6 +1,5 @@
 from ast import main
 from multiprocessing.spawn import _main
-from xml.dom.minidom import Document
 from langchain_chroma import Chroma
 from utils.config_handler import chroma_conf
 from model.factory import embed_model
@@ -9,6 +8,7 @@ import os
 from utils.path_tool import get_abs_path
 from utils.file_handler import pdf_loader, txt_loader, listdir_with_allowed_type, get_file_md5_hex
 from utils.logger_handler import logger
+from langchain_core.documents import Document
 
 
 class VectorStoreService:
@@ -18,7 +18,7 @@ class VectorStoreService:
             embedding_function=embed_model,
             persist_directory=chroma_conf["persist_directory"],
         )
-        self.spliter = RecursiveCharacterTextSplitter(
+        self.spliter = RecursiveCharacterTextSplitter(  # 文本切割器
             chunk_size = chroma_conf["chunk_size"],
             chunk_overlap = chroma_conf["chunk_overlap"],
             separators=chroma_conf["separators"],
