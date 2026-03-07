@@ -31,3 +31,50 @@
 2026-03-07 20:49:22,843 - agent - INFO - middleware.py:29 - [tool monitor]工具fetch_external_data调用成功
 2026-03-07 20:49:22,845 - agent - INFO - middleware.py:47 - [log_before_model]即将调用模型，带有8条消息。
 2026-03-07 20:49:22,845 - agent - DEBUG - middleware.py:48 - [log_before_model]ToolMessage | {"特征": "85㎡ | 2猫 | 混合地面", "效率": "猫砂泼洒处理:8次/月\\n自动回充成功率:89%", "耗材": "主刷缠绕:严重\\n滤网更换:急需", "对比": "建议升级吸力至2500Pa"}
+2026-03-07 21:20:58,523 - agent - INFO - middleware.py:47 - [log_before_model]即将调用模型，带有1条消息。
+2026-03-07 21:20:58,525 - agent - DEBUG - middleware.py:48 - [log_before_model]HumanMessage | 在我这个地方的天气，扫地机器人如何保养
+2026-03-07 21:21:07,399 - agent - INFO - middleware.py:24 - [tool monitor]执行工具：get_user_location
+2026-03-07 21:21:07,400 - agent - INFO - middleware.py:25 - [tool monitor]传入参数：{}
+2026-03-07 21:21:07,400 - agent - INFO - middleware.py:24 - [tool monitor]执行工具：get_weather
+2026-03-07 21:21:07,402 - agent - INFO - middleware.py:29 - [tool monitor]工具get_user_location调用成功
+2026-03-07 21:21:07,402 - agent - INFO - middleware.py:25 - [tool monitor]传入参数：{'city': '杭州市'}
+2026-03-07 21:21:07,405 - agent - INFO - middleware.py:29 - [tool monitor]工具get_weather调用成功
+2026-03-07 21:21:07,407 - agent - INFO - middleware.py:47 - [log_before_model]即将调用模型，带有4条消息。
+2026-03-07 21:21:07,407 - agent - DEBUG - middleware.py:48 - [log_before_model]ToolMessage | 城市杭州市天气为晴天，气温26摄氏度，空气湿度50%，南风1级，AQI21，最近6小时降雨概率极低
+2026-03-07 21:21:25,486 - agent - INFO - middleware.py:24 - [tool monitor]执行工具：rag_summarize
+2026-03-07 21:21:25,486 - agent - INFO - middleware.py:25 - [tool monitor]传入参数：{'query': '扫地机器人 保养方法'}
+2026-03-07 21:21:37,500 - agent - INFO - middleware.py:29 - [tool monitor]工具rag_summarize调用成功
+2026-03-07 21:21:37,504 - agent - INFO - middleware.py:47 - [log_before_model]即将调用模型，带有6条消息。
+2026-03-07 21:21:37,505 - agent - DEBUG - middleware.py:48 - [log_before_model]ToolMessage | 扫地机器人的保养方法包括：每日使用后用干软布擦拭机身去除灰尘和水渍；每次清扫完成后清理防撞条缝隙中的毛发或线头；每月检查扫拖一体机型的拖地模组接口确保无灰尘杂物；日常使用后将机器人调至待机模式以节省电量；每周检查充电座电源适配器是否正常工作；若沾到宠物粪便应立即清理并消毒；每日检查边刷旋转情况，如有卡顿需停机清理以防电机损坏。对于特定环境如短毛地毯、水泥地/老旧地砖以及有宠物的家庭，还需根据具体情况进行额外的清洁与维护。
+2026-03-07 21:22:28,703 - agent - INFO - middleware.py:47 - [log_before_model]即将调用模型，带有1条消息。
+2026-03-07 21:22:28,704 - agent - DEBUG - middleware.py:48 - [log_before_model]HumanMessage | 能不能以md文档的格式给我
+2026-03-07 21:25:08,031 - agent - INFO - middleware.py:47 - [log_before_model]即将调用模型，带有1条消息。
+2026-03-07 21:25:08,031 - agent - DEBUG - middleware.py:48 - [log_before_model]HumanMessage | 在我城市的当前天气下，如何保养扫地机器人
+2026-03-07 21:25:17,721 - agent - INFO - middleware.py:24 - [tool monitor]执行工具：get_user_location
+2026-03-07 21:25:17,722 - agent - INFO - middleware.py:25 - [tool monitor]传入参数：{}
+2026-03-07 21:25:17,722 - agent - INFO - middleware.py:24 - [tool monitor]执行工具：get_weather
+2026-03-07 21:25:17,723 - agent - INFO - middleware.py:29 - [tool monitor]工具get_user_location调用成功
+2026-03-07 21:25:17,723 - agent - INFO - middleware.py:25 - [tool monitor]传入参数：{'city': '杭州市'}
+2026-03-07 21:25:17,726 - agent - INFO - middleware.py:29 - [tool monitor]工具get_weather调用成功
+2026-03-07 21:25:17,728 - agent - INFO - middleware.py:47 - [log_before_model]即将调用模型，带有4条消息。
+2026-03-07 21:25:17,728 - agent - DEBUG - middleware.py:48 - [log_before_model]ToolMessage | 城市杭州市天气为晴天，气温26摄氏度，空气湿度50%，南风1级，AQI21，最近6小时降雨概率极低
+2026-03-07 21:25:43,117 - agent - INFO - middleware.py:24 - [tool monitor]执行工具：get_weather
+2026-03-07 21:25:43,118 - agent - INFO - middleware.py:25 - [tool monitor]传入参数：{'city': '深圳'}
+2026-03-07 21:25:43,120 - agent - INFO - middleware.py:29 - [tool monitor]工具get_weather调用成功
+2026-03-07 21:25:43,122 - agent - INFO - middleware.py:47 - [log_before_model]即将调用模型，带有6条消息。
+2026-03-07 21:25:43,123 - agent - DEBUG - middleware.py:48 - [log_before_model]ToolMessage | 城市深圳天气为晴天，气温26摄氏度，空气湿度50%，南风1级，AQI21，最近6小时降雨概率极低
+2026-03-07 21:29:05,399 - agent - INFO - middleware.py:47 - [log_before_model]即将调用模型，带有1条消息。
+2026-03-07 21:29:05,400 - agent - DEBUG - middleware.py:48 - [log_before_model]HumanMessage | 在我城市的当前天气下，如何保养扫地机器人
+2026-03-07 21:29:16,070 - agent - INFO - middleware.py:24 - [tool monitor]执行工具：get_user_location
+2026-03-07 21:29:16,071 - agent - INFO - middleware.py:25 - [tool monitor]传入参数：{}
+2026-03-07 21:29:16,071 - agent - INFO - middleware.py:24 - [tool monitor]执行工具：get_weather
+2026-03-07 21:29:16,072 - agent - INFO - middleware.py:29 - [tool monitor]工具get_user_location调用成功
+2026-03-07 21:29:16,072 - agent - INFO - middleware.py:25 - [tool monitor]传入参数：{'city': '北京市'}
+2026-03-07 21:29:16,073 - agent - INFO - middleware.py:29 - [tool monitor]工具get_weather调用成功
+2026-03-07 21:29:16,690 - agent - INFO - middleware.py:47 - [log_before_model]即将调用模型，带有4条消息。
+2026-03-07 21:29:16,691 - agent - DEBUG - middleware.py:48 - [log_before_model]ToolMessage | 城市北京市天气为晴天，气温26摄氏度，空气湿度50%，南风1级，AQI21，最近6小时降雨概率极低
+2026-03-07 21:29:26,162 - agent - INFO - middleware.py:24 - [tool monitor]执行工具：get_weather
+2026-03-07 21:29:26,163 - agent - INFO - middleware.py:25 - [tool monitor]传入参数：{'city': '深圳'}
+2026-03-07 21:29:26,165 - agent - INFO - middleware.py:29 - [tool monitor]工具get_weather调用成功
+2026-03-07 21:29:26,814 - agent - INFO - middleware.py:47 - [log_before_model]即将调用模型，带有6条消息。
+2026-03-07 21:29:26,815 - agent - DEBUG - middleware.py:48 - [log_before_model]ToolMessage | 城市深圳天气为晴天，气温26摄氏度，空气湿度50%，南风1级，AQI21，最近6小时降雨概率极低
