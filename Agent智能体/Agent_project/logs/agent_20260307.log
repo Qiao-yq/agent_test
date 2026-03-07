@@ -1,0 +1,33 @@
+2026-03-07 20:40:07,514 - agent - INFO - middleware.py:47 - [log_before_model]即将调用模型，带有1条消息。
+2026-03-07 20:43:25,774 - agent - INFO - middleware.py:47 - [log_before_model]即将调用模型，带有1条消息。
+2026-03-07 20:43:25,775 - agent - DEBUG - middleware.py:48 - [log_before_model]HumanMessage | 扫地机器人在我所在的地区的气温下如何保养
+2026-03-07 20:43:34,352 - agent - INFO - middleware.py:24 - [tool monitor]执行工具：get_user_location
+2026-03-07 20:43:34,353 - agent - INFO - middleware.py:25 - [tool monitor]传入参数：{}
+2026-03-07 20:43:34,354 - agent - INFO - middleware.py:29 - [tool monitor]工具get_user_location调用成功
+2026-03-07 20:43:34,356 - agent - INFO - middleware.py:47 - [log_before_model]即将调用模型，带有3条消息。
+2026-03-07 20:43:34,356 - agent - DEBUG - middleware.py:48 - [log_before_model]ToolMessage | 合肥
+2026-03-07 20:43:39,687 - agent - INFO - middleware.py:24 - [tool monitor]执行工具：get_weather
+2026-03-07 20:43:39,687 - agent - INFO - middleware.py:25 - [tool monitor]传入参数：{'city': '合肥'}
+2026-03-07 20:43:39,690 - agent - INFO - middleware.py:29 - [tool monitor]工具get_weather调用成功
+2026-03-07 20:43:39,692 - agent - INFO - middleware.py:47 - [log_before_model]即将调用模型，带有5条消息。
+2026-03-07 20:43:39,692 - agent - DEBUG - middleware.py:48 - [log_before_model]ToolMessage | 城市合肥天气为晴天，气温26摄氏度，空气湿度50%，南风1级，AQI21，最近6小时降雨概率极低
+2026-03-07 20:49:01,177 - agent - INFO - middleware.py:47 - [log_before_model]即将调用模型，带有1条消息。
+2026-03-07 20:49:01,178 - agent - DEBUG - middleware.py:48 - [log_before_model]HumanMessage | 生成我的使用报告
+2026-03-07 20:49:09,344 - agent - INFO - middleware.py:24 - [tool monitor]执行工具：get_user_id
+2026-03-07 20:49:09,344 - agent - INFO - middleware.py:25 - [tool monitor]传入参数：{}
+2026-03-07 20:49:09,345 - agent - INFO - middleware.py:24 - [tool monitor]执行工具：get_current_month
+2026-03-07 20:49:09,346 - agent - INFO - middleware.py:29 - [tool monitor]工具get_user_id调用成功
+2026-03-07 20:49:09,346 - agent - INFO - middleware.py:25 - [tool monitor]传入参数：{}
+2026-03-07 20:49:09,348 - agent - INFO - middleware.py:29 - [tool monitor]工具get_current_month调用成功
+2026-03-07 20:49:09,351 - agent - INFO - middleware.py:47 - [log_before_model]即将调用模型，带有4条消息。
+2026-03-07 20:49:09,351 - agent - DEBUG - middleware.py:48 - [log_before_model]ToolMessage | 2025-06
+2026-03-07 20:49:18,139 - agent - INFO - middleware.py:24 - [tool monitor]执行工具：fill_context_for_report
+2026-03-07 20:49:18,140 - agent - INFO - middleware.py:25 - [tool monitor]传入参数：{}
+2026-03-07 20:49:18,141 - agent - INFO - middleware.py:29 - [tool monitor]工具fill_context_for_report调用成功
+2026-03-07 20:49:18,142 - agent - INFO - middleware.py:47 - [log_before_model]即将调用模型，带有6条消息。
+2026-03-07 20:49:18,142 - agent - DEBUG - middleware.py:48 - [log_before_model]ToolMessage | fill_context_for_report已调用
+2026-03-07 20:49:22,838 - agent - INFO - middleware.py:24 - [tool monitor]执行工具：fetch_external_data
+2026-03-07 20:49:22,839 - agent - INFO - middleware.py:25 - [tool monitor]传入参数：{'month': '2025-06', 'user_id': '1004'}
+2026-03-07 20:49:22,843 - agent - INFO - middleware.py:29 - [tool monitor]工具fetch_external_data调用成功
+2026-03-07 20:49:22,845 - agent - INFO - middleware.py:47 - [log_before_model]即将调用模型，带有8条消息。
+2026-03-07 20:49:22,845 - agent - DEBUG - middleware.py:48 - [log_before_model]ToolMessage | {"特征": "85㎡ | 2猫 | 混合地面", "效率": "猫砂泼洒处理:8次/月\\n自动回充成功率:89%", "耗材": "主刷缠绕:严重\\n滤网更换:急需", "对比": "建议升级吸力至2500Pa"}
